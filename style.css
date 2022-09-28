@@ -1,0 +1,79 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(243, 225, 225);
+}
+
+header {
+    background: #5846c7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+menu li a {
+    display: block;
+    padding: 10px;
+    background: rgb(19, 38, 99);
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    margin-left: 400px;
+    margin-right: 400px;
+    /* titulo da pagina */
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(172, 170, 180, 0.813), rgb(110, 108, 113))/* cor do fundo colorido ! */
+}
+
+.botao {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 23px;
+    height: 33px;
+    width: 1px;
+    position: absolute;
+    left: 440px;
+    padding: 6px;
+    top: 17px;
+    background-color: #452a80;
+    color: #ffffff;
+    border-top: white;
+    border-right: white;
+    border-bottom-left-radius: 8px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.caixa {
+    border-radius: 15px;
+    height: 39px;
+    background-color: #452a80;
+    color: white;
+}
