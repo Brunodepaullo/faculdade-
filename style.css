@@ -83,3 +83,10 @@ body {
     background-color: #452a80;
     color: white;
 }
+
+.p_imagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
