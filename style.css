@@ -88,5 +88,36 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.tabela{
+    display: flex;
+    border-radius: 10px;
+
+}
+.container{
+    display: flex;
+    border: red solid 1px;
+    width: 750px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container_2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: red solid 1px;
+    width: 750px;
+    height: 400px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 2rem;
+}
+
+.nome_prod, .opçoes, .Produto{
+    border: red solid 1px;
+    width: 750px;
+    height: 400px;
+    text-align: center ;
 }
