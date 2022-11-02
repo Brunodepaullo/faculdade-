@@ -98,7 +98,7 @@ body {
 .container{
     display: flex;
     border: red solid 1px;
-    width: 750px;
+    width: 720px;
     height: 400px;
     padding: 10px;
     border-radius: 10px;
@@ -108,7 +108,7 @@ body {
     display: flex;
     flex-direction: column;
     border: red solid 1px;
-    width: 750px;
+    width: 720px;
     height: 400px;
     align-items: center;
     border-radius: 10px;
@@ -117,7 +117,7 @@ body {
 
 .nome_prod, .opçoes, .Produto{
     border: red solid 1px;
-    width: 750px;
+    width: 720px;
     height: 400px;
     text-align: center ;
 }
