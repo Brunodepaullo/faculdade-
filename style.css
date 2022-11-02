@@ -84,7 +84,7 @@ body {
     color: white;
 }
 
-.p_imagens{
+.imagens{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -98,17 +98,18 @@ body {
 .container{
     display: flex;
     border: red solid 1px;
-    width: 720px;
+    flex: 2;
     height: 400px;
     padding: 10px;
     border-radius: 10px;
+    
 }
 .container_2{
     padding: 10px;
     display: flex;
+    flex: 2;
     flex-direction: column;
     border: red solid 1px;
-    width: 720px;
     height: 400px;
     align-items: center;
     border-radius: 10px;
@@ -117,6 +118,7 @@ body {
 
 .nome_prod, .opçoes, .Produto{
     border: red solid 1px;
+    flex: 2;
     width: 720px;
     height: 400px;
     text-align: center ;
