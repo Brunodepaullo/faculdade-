@@ -41,7 +41,7 @@ menu li a {
 
 .titulo {
     text-align: center;
-    color: black
+    color: black;
     font-size: 27px;
     margin-left: 400px;
     margin-right: 400px;
@@ -95,7 +95,7 @@ menu li a {
 }
 .container{
     display: flex;
-    border: black 1px;
+    border: rgb(219, 15, 15) 1px;
     flex: 2;
     height: 400px;
     padding: 10px;
@@ -107,7 +107,7 @@ menu li a {
     display: flex;
     flex: 2;
     flex-direction: column;
-    border: black 1px;
+    border: rgb(231, 18, 18) 1px;
     height: 400px;
     align-items: center;
     border-radius: 10px;
@@ -115,7 +115,7 @@ menu li a {
 }
 
 .nome_prod, .Produto{
-    border: black 1px;
+    border: rgb(215, 24, 24) 1px;
     flex: 2;
     width: 720px;
     height: 400px;
@@ -125,11 +125,13 @@ menu li a {
     display: flex;
     justify-content: center;
     flex: 1;
-    background-color: blueviolet;
     width: 40%;
+    border-radius: 25px;
+
 }
 .comprar{
+    font-size: 30px;
     position: center;
-    padding: 5px;
-    width: 40%;
+    width: 100%;
+    border-radius: 25px;
 }
