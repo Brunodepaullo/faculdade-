@@ -41,16 +41,14 @@ menu li a {
 
 .titulo {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: black
     font-size: 27px;
     margin-left: 400px;
     margin-right: 400px;
     /* titulo da pagina */
 }
 
-body {
-    background-image: linear-gradient(45deg, rgba(172, 170, 180, 0.813), rgb(110, 108, 113))/* cor do fundo colorido ! */
-}
+
 
 .botao {
     margin: 0;
@@ -97,7 +95,7 @@ body {
 }
 .container{
     display: flex;
-    border: red solid 1px;
+    border: black 1px;
     flex: 2;
     height: 400px;
     padding: 10px;
@@ -109,17 +107,29 @@ body {
     display: flex;
     flex: 2;
     flex-direction: column;
-    border: red solid 1px;
+    border: black 1px;
     height: 400px;
     align-items: center;
     border-radius: 10px;
     gap: 2rem;
 }
 
-.nome_prod, .opçoes, .Produto{
-    border: red solid 1px;
+.nome_prod, .Produto{
+    border: black 1px;
     flex: 2;
     width: 720px;
     height: 400px;
     text-align: center ;
+}
+.opçoes{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: blueviolet;
+    width: 40%;
+}
+.comprar{
+    position: center;
+    padding: 5px;
+    width: 40%;
 }
